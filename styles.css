@@ -1,0 +1,142 @@
+/*** Tag Selectors ***/
+body {
+    background-color: #467DB2;
+    margin: 0;
+    /* display: inline; */
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.1rem;
+}
+
+h2 {
+    color: #467DB2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: #467DB2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #467DB2;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    line-height: 1.5;
+}
+
+img {
+    background-color: transparent;
+}
+
+a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+}
+
+a:hover {
+    color:;
+}
+
+/*** Id Selectors ***/
+#little-cloud {
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    left: 289px;
+    top: 13px;
+}
+
+#big-cloud {
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    left: 571px;
+    top: 227px;
+}
+
+#heading {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 170px;
+    line-height: 1;
+    /* line-height is given a value but not units! */
+}
+
+#rolling-hills {
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 151px;
+}
+
+/*** Class Selectors ***/
+.btn {
+    color: #467DB2;
+}
+/* See https://www.css3buttongenerator.com/ */
+
+.links {
+    position: relative;
+    top: 299px;
+    left: auto;
+}
+
+.top-container {
+    background-color: #467DB2;
+    text-align: center;
+    position: relative;
+    top: 13px;
+}
+
+.middle-container {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 533px;
+    padding-top: 21px;
+    padding-bottom: 13px;
+}
+
+.bottom-container {
+    background-color: #467DB2;
+    text-align: center;
+    position: relative;
+    top: 547px;
+}
+
+.profile {
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    padding-top: 21px;
+}
+
+.skill-row {
+    /* display: inline-block; */
+    width: 50%;
+    margin: auto;
+    
+}
+
+.contact-me {
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.btn:hover {
+    color:;
+}
+
+.copyright {
+    color: white; 
+    font-size: 0.8rem;
+    padding: 20px 0;
+}
